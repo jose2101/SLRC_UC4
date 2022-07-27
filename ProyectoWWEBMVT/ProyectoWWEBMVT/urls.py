@@ -22,4 +22,6 @@ urlpatterns = [
     path('index/',views.Index),
     path('integrantes/',views.Integrantes),
     path('saludo/',views.Saludo),
+    path('crear-estudiante',views.crear_estudiante,name="crear_estudiante"),
+
 ]
